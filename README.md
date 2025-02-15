@@ -1,10 +1,7 @@
 
-# 3\*3 Sliding Puzzle Solver Using A* algorithm
+# 3x3 Sliding Puzzle Solver Using A* algorithm
 
 This project implements a 3x3 sliding puzzle solver using the A* (A-star) algorithm in Python. The sliding puzzle consists of 8 numbered tiles and one empty space, with the goal of arranging the tiles in numerical order. The A* algorithm is employed to find the shortest path from the initial configuration to the solved state by evaluating possible moves based on a heuristic (Manhattan Distance). The program efficiently solves the puzzle and outputs the sequence of moves to reach the solution.
-
-
-
 
 ## Features
 
