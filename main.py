@@ -68,9 +68,9 @@ class Puzzle:
 
             # If this state is the goal, reconstruct the solution path
             if np.array_equal(current_state, self.goal_state):
-                print(f'completed_s={current_state}')
-                for key, value in came_from.items():
-                    print(f"dictionary{key}:{value}\n")
+                # print(f'completed_s={current_state}')
+                # for key, value in came_from.items():
+                #     print(f"dictionary{key}:{value}\n")
                 print("Solved!")
                 self.print_solution(came_from, current_state)
                 return
@@ -113,7 +113,7 @@ class Puzzle:
         if not path:
             print("No solution path exists.")
             return
-        print(path)
+        # print(path)
         path.reverse()  # Reverse to show path from start to goal
 
         count_step = 0
