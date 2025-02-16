@@ -22,6 +22,9 @@ This project implements a 3x3 sliding puzzle solver using the A* (A-star) algori
 git clone https://github.com/kitarp3690/3x3-puzzle-solver.git
 ```
 ```bash
+pip install numpy
+```
+```bash
 cd 3-3-puzzle-solver
 ```
 ```bash
