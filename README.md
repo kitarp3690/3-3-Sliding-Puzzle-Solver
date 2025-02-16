@@ -13,7 +13,7 @@ This project implements a 3x3 sliding puzzle solver using the A* (A-star) algori
 
 ## Requirements
 
-- Python 3.x
+- Python 3.12.0
 - numpy for matrix manipulations.
 - heapq for implementing the priority queue used in the A* algorithm.
 ## Installation
